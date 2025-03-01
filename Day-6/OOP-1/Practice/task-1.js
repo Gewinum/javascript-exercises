@@ -1,8 +1,8 @@
 function CoffeeMachine(power) {
     this.waterAmount = 0;
-    var WATER_HEAT_CAPACITY = 4200;
-    var self = this;
-    var timeoutId = null;
+    let WATER_HEAT_CAPACITY = 4200;
+    let self = this;
+    let timeoutId = null;
 
     function getBoilTime() {
         return self.waterAmount * WATER_HEAT_CAPACITY * 80 / power;

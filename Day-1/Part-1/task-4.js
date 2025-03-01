@@ -1,4 +1,4 @@
-var a = 0;
+let a = 0;
 
 // It is worth to mention that switch compares values and their types(in task there were '==' operators used
 switch(a) {

@@ -12,7 +12,7 @@ class MyString {
     }
 }
 
-var str = new MyString();
+let str = new MyString();
 
 console.log(str.reverse('abcde')); // print 'edcba'
 console.log(str.ucFirst('abcde')); // print 'Abcde'

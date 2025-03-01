@@ -17,6 +17,6 @@ CoffeeMachine.prototype = {
     }
 };
 
-var coffeeMachine = new CoffeeMachine(10000);
+let coffeeMachine = new CoffeeMachine(10000);
 coffeeMachine.setWaterAmount(50);
 coffeeMachine.run();

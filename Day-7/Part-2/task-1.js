@@ -16,7 +16,7 @@ class Validator {
     }
 }
 
-var validator = new Validator();
+let validator = new Validator();
 console.log(validator.isEmail("jshtml@gmail.com"));
 console.log(validator.isDomain("gmail.com"));
 console.log(validator.isDate('12.05.2020'));

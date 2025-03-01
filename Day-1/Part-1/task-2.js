@@ -1,4 +1,4 @@
-var message;
+let message;
 
 message = login == "Pitter" ? "Hi"
         : login == "Owner" ? "Hello"

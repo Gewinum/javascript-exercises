@@ -1,8 +1,8 @@
 function CoffeeMachine(power, capacity) {
-    var waterAmount = 0;
-    var WATER_HEAT_CAPACITY = 4200;
-    var running = false;
-    var onReady = function() {
+    let waterAmount = 0;
+    let WATER_HEAT_CAPACITY = 4200;
+    let running = false;
+    let onReady = function() {
         console.log("Coffee is ready");
     }
 
@@ -41,7 +41,7 @@ function CoffeeMachine(power, capacity) {
     }
 }
 
-var coffeeMachine = new CoffeeMachine(20000, 500);
+let coffeeMachine = new CoffeeMachine(20000, 500);
 coffeeMachine.setWaterAmount(100);
 
 console.log('Before: ' + coffeeMachine.isRunning()); // Before: false

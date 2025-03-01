@@ -1,6 +1,6 @@
 function CoffeeMachine(power, capacity) {
-    var waterAmount = 0;
-    var WATER_HEAT_CAPACITY = 4200;
+    let waterAmount = 0;
+    let WATER_HEAT_CAPACITY = 4200;
 
     function getTimeToBoil() {
         return waterAmount * WATER_HEAT_CAPACITY * 80 / power;
@@ -36,7 +36,7 @@ function CoffeeMachine(power, capacity) {
     };
 }
 
-var coffeeMachine = new CoffeeMachine(100000, 400);
+let coffeeMachine = new CoffeeMachine(100000, 400);
 coffeeMachine.addWater(200);
 coffeeMachine.addWater(100);
 coffeeMachine.addWater(300); // You can't put more water, than 400

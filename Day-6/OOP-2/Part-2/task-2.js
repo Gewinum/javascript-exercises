@@ -7,8 +7,8 @@ Hamster.prototype.found = function(something) {
 };
 
 // Create two hamsters and feed the first
-var speedy = new Hamster();
-var lazy = new Hamster();
+let speedy = new Hamster();
+let lazy = new Hamster();
 
 speedy.found("apple");
 speedy.found("nut");
