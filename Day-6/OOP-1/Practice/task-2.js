@@ -1,5 +1,5 @@
 function CoffeeMachine(power, capacity) {
-    //...
+    let waterAmount = 0;
     this.setWaterAmount = function(amount) {
         if (amount < 0) {
             throw new Error("Value has to be positive.");
