@@ -1,4 +1,5 @@
-let result;
-result = (a + b) < 4 ? true : false;
-// or
-result = (a + b) < 4;
+const a = 1;
+const b = 3;
+
+let result = (a + b) < 4;
+console.log( result );

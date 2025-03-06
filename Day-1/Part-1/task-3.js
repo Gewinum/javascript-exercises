@@ -1,3 +1,5 @@
+const val = 'b';
+
 if (val === 'a') {
     console.log( 'a' );
 } else if (val === 'b' || val === 'c' || val === 'd' || val === 'e') {
