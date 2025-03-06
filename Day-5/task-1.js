@@ -3,7 +3,6 @@ Object.defineProperty(Object.prototype, "mergeDeepRight", {
      * @param {object} dataToAdd
      */
     value: function (dataToAdd) {
-        const originalKeys = Object.keys(this);
         const mergingKeys = Object.keys(dataToAdd);
 
         mergingKeys.forEach((key) => {
